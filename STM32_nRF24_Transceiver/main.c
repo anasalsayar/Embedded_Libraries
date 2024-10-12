@@ -117,7 +117,8 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 
-	  printf("Wassup\n");
+	   printf("Registers Reading \n");
+	  printf("\n");
 	       NRF24_PrintReceiverRegisters();
 
 	 	  if (isDataAvailable(1) == 1)
@@ -128,6 +129,7 @@ int main(void)
 	    		    RxData[31] = '\0';  // Assuming NRF24_Receive fills the entire buffer, add null terminator
 
 	    		    // Print received data using printf
+	    			printf("\n");
 	    		    printf("%s", RxData);
 	    	  }
 
