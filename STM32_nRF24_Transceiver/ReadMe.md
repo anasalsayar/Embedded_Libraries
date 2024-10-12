@@ -80,7 +80,7 @@ int _write(int file, char *ptr, int len)
 
 1. **Open Debug Configuration**:
    - Go to **Run > Debug Configurations**.
-   - Select your debug profile (e.g., `ST-Link (OpenOCD)`).
+   - Select your debug profile (e.g., `ST-Link (ST-LINK GDB server)`).
 
 2. **Enable SWV**:
    - In the **Debugger** tab, scroll to **SWO Configuration**.
