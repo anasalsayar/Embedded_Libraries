@@ -116,20 +116,6 @@ int _write(int file, char *ptr, int len)
 
 ---
 
-## **Project Structure**
-
-
-├── Core
-│   ├── Inc
-│   │   └── main.h
-│   └── Src
-│       └── main.c
-├── Drivers
-│   └── STM32F4xx_HAL_Driver
-├── README.md
-└── .gitignore
-
-
 
 
 ## **How to Use This Project**
